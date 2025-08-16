@@ -7,7 +7,7 @@ def getMoneySpent(keyboards, drives, b):
                 max_spend = total
     return max_spend
 
-# Read all input correctly
+
 b, n, m = map(int, input().split())           # e.g. 10 2 3
 keyboards = list(map(int, input().split()))   # e.g. 3 1
 drives = list(map(int, input().split()))      # e.g. 5 2 8
