@@ -6,11 +6,6 @@ import random
 import re
 import sys
 
-#
-# Complete the 'plusMinus' function below.
-#
-# The function accepts INTEGER_ARRAY arr as parameter.
-#
 
 def plusMinus(arr, size):
     posicount = 0
