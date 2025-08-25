@@ -5,6 +5,7 @@ for _ in range(n):
     row = list(map(int, input().split()))
     matrix.append(row)
 primary_sum = 0
+
 secondary_sum = 0
 
 for i in range(n):
