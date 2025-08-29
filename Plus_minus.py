@@ -5,6 +5,7 @@ import re
 import sys
 
 
+
 def plusMinus(arr, size):
     posicount = 0
     negcount = 0
