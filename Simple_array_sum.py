@@ -5,5 +5,6 @@ def array_sum(arr):
 size = int(input())
 arr = list(map(int, input().split()))
 
+
 result = array_sum(arr)
 print(result)
