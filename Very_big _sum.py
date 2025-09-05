@@ -7,3 +7,5 @@ arr = list(map(int, input().split()))
 
 result = array_sum(arr)
 print(result)
+
+# abcd
