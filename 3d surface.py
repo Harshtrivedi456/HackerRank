@@ -14,6 +14,7 @@ def surfaceArea(A):
             total += A[i][j] if j == W-1 else max(0, A[i][j] - A[i][j+1])
     return total
 
+
 if __name__ == "__main__":
     H, W = map(int, input().split())
     A = [list(map(int, input().split())) for _ in range(H)]
